@@ -1,0 +1,29 @@
+Listado de métodos asserts que podemos utilizar con la librería unittest.
+
+Si tú no te encuentras usando dicha librería, puedes utilizar la palabra reservada assert en conjunto con la columna 
+Evalua para poder realizar tus pruebas.
+
+Método	                      Evalua	                      Versión
+assertEqual(a, b)	          a == b	                      > 2.7
+assertNotEqual(a, b)	      a != b	                      > 2.7
+assertTrue(x)	              bool(x) is True	              > 2.7
+assertFalse(x)	              bool(x) is False	              > 2.7
+assertAlmostEqual(a, b)	      round(a-b, 7) == 0	          > 2.7
+assertNotAlmostEqual(a, b)	  round(a-b, 7) != 0	          > 2.7
+assertIs(a, b)	              a is b	                      > 3.1
+assertIsNot(a, b)	          a is not b	                  > 3.1
+assertIsNone(x)	              x is None	                      > 3.1
+assertIsNotNone(x)	          x is not None	                  > 3.1
+assertIn(a, b)	              a in b	                      > 3.1
+assertNotIn(a, b)	          a not in b	                  > 3.1
+assertIsInstance(a, b)	      isinstance(a, b)	              > 3.1
+assertNotIsInstance(a, b)	  assertNotIsInstance(a, b)	      > 3.1
+assertGreater(a, b)	          a > b	                          > 3.1
+assertGreaterEqual(a, b)	  a >= b	                      > 3.1
+assertLess(a, b)	          a < b	                          > 3.1
+assertLessEqual(a, b)	      a <= b	                      > 3.1
+assertRegex(s, r)	          r.search(s)	                  > 3.1
+assertNotRegex(s, r)	      not r.search(s)	              > 3.2
+assertNotRegex(s, r)	      len(s) == len(r)	              > 3.2
+
+Para más información puedes consular la Documentación oficial.
